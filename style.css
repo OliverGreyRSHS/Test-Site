@@ -1,0 +1,104 @@
+.main{
+  margin-left: 20%;
+  margin-right: 20%;
+  position: inherit;
+ line-height: 1.4em;
+ padding-inline-start: 0;
+}
+
+h2{
+color:bisque;
+font-family:'Alata', sans-serif;
+font-size:100%;
+}
+
+
+nav ol {
+list-style-type: none;
+position: fixed;
+width: 100%;
+display: absolute;
+top: 0%;
+margin: 0%;
+padding: 0%;
+padding-inline-start: 15px;
+padding-inline-end: 15px;
+overflow: hidden;
+background-color: cadetblue;
+}
+
+nav li {
+  float: left;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+nav li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Alata', sans-serif;
+}
+
+.first-image {
+  background-image: url("images/Auckland Harbour.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+}
+
+
+.image-text {
+  text-align: center;
+  position: relative;
+  margin: 12% 20% 0% 20%;
+  transform: translate (-50%, -50%);
+  vertical-align: middle;
+  white-space: normal;
+}
+
+
+h1 {
+  color: rgb(248, 205, 15);
+  font-family: 'Alata', sans-serif;
+  font-size: 500%;
+  line-height: 1.1em;
+  overflow: hidden;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  padding: 0%;
+  vertical-align: middle;
+  white-space: normal;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+}
+
+.main {
+  margin-left: 20%;
+  margin-right: 20%;
+  position: inherit;
+  line-height: 1.4em;
+  color: black;
+  padding-inline-start: 0%;
+}
+
+h2 {
+  background-color: cadetblue;
+  color: white;
+  width: 29%;
+  margin:1%;
+  padding: 1%;
+  float: left;
+}
